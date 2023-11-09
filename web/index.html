@@ -13,9 +13,18 @@
     <div class="container">
         <div class="onlinePlayers"><i class="fa-solid fa-user-group"></i>100</div>
         <div class="playerID">ID: 163</div>
-        <div class="hints-container1">Cumpara un Telefon de la Digital Den</div>
-        <div class="hints-container2">Obtine un Permis Auto</div>
-        <div class="hints-container3">Hai sa faci si niste bani!</div>
+        <div class="quest-wrapper" v-if="quest_data">
+          <div class="content">
+            <div class="title-wrapper">
+              <div class="progress">({{quest_data.actual_mission}}/<span>{{quest_data.total_missions}}</span>)</div>
+              <div class="label">Starter Quest</div>
+            </div>
+            <div class="message">{{quest_data.message}}</div>
+          </div>
+
+          <div class="icon">
+          </div>
+        </div>
     </div>
 
     <div class="logo-container">

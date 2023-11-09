@@ -7,10 +7,6 @@
     font-family: 'Gilroy-Regular';
     src: url(Gilroy-Regular.ttf);
 }
-
-* {
-    background-color: #949494;
-}
  
 .logo-container {
     position: absolute;
@@ -33,18 +29,134 @@
     font-family: Gilroy-Regular;
     font-weight: 900;
     margin-left: 50vw;
-    margin-top: 2.7vw;
+    margin-top: 3.1vw;
+    color: rgba(186, 177, 177, 0.788);
+    text-shadow: 0px 7.990000114440918px 14.600000381469727px rgba(16, 168, 250, 0.3);
+}
 
+.container .playerID {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    font-family: Gilroy-Regular;
+    font-weight: 900;
+    margin-left: 45vw;
+    margin-top: -1.2vw;
+    font-size: 1.1rem;
+    line-height: normal;
+    color: rgba(186, 177, 177, 0.788);
+    text-transform: uppercase;
+    text-shadow: 0px 7.990000114440918px 14.600000381469727px rgba(16, 168, 250, 0.3);
 }
 
 .server-name {
     position: absolute;
     justify-content: center;
     align-items: center;
-    font-weight: bolder;
-    font-family: Gilroy-Bold;
-    font-size: 1.8vw;
+    font-family: 'Gilroy-Bold';
+    font-size: 36px;
+    line-height: normal;
     text-transform: uppercase;
-    margin-left: 83.3vw;
+    background: radial-gradient(79.35% 79.35% at 50% 50%, #10bffa 0%, #0a4153 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0px 7.990000114440918px 14.600000381469727px rgba(16, 168, 250, 0.3);
+    margin-left: 80.5vw;
     margin-top: .3vw;
 }
+
+.container > .quest-wrapper {
+    margin-top: 2vw;
+    margin-left: 33vw;
+    display: flex;
+    align-items: center;
+}
+
+.container > .quest-wrapper > .icon {
+    width: 65px;
+    height: 65px;
+    background: url(https://cdn.discordapp.com/attachments/1167491329740242965/1172234462445195396/image.png?ex=655f936a&is=654d1e6a&hm=a762a99f7a9f15b324bd63c3ea80c1286c3214f19c605baa2f1b239de8379b26&);
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* background-color: red; */
+}
+
+.container > .quest-wrapper > .icon > img {
+    width: 39px;
+}
+
+.container > .quest-wrapper > .content {
+    width: 329px;
+    height: 66px;
+    background: url(https://cdn.discordapp.com/attachments/1167491329740242965/1172236876917264434/image_8.png?ex=655f95aa&is=654d20aa&hm=a8ea27279b29a00c8b5e33a88a285318b70660f670e83cb78a22509499f56f9b&);
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.container > .quest-wrapper > .content > .title-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 40px;
+    /* width: 150px; */
+    gap: 5px;
+    opacity: .5;
+    font-family: Gilroy-Bold;
+    font-weight: 600;
+}
+
+.container > .quest-wrapper > .content > .title-wrapper > .label {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.container > .quest-wrapper > .content > .title-wrapper > .progress {
+    font-size: 11px;
+    font-weight: 300;
+}
+
+.container > .quest-wrapper > .content > .title-wrapper > .progress > span {
+    color: #00A376;
+}
+
+.container > .quest-wrapper > .content > .message {
+    margin-right: 40px;
+    font-size: 13px;
+    font-weight: 500;
+    text-align: end;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Gilroy-Bold;
+    font-weight: 600;
+}
+
+.container > .quest-wrapper > .col > .title-wrapper > .label {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.container > .quest-wrapper > .col > .title-wrapper > .progress {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.container > .quest-wrapper > .col > .title-wrapper > .progress > span {
+    color: #FF5C00;
+}
+
+.container > .quest-wrapper > .col > .message {
+    width: 250px;
+    color: #FFBDA1;
+    margin-left: 12px;
+    font-size: 12px;
+    margin-top: 1px;
+    font-style: normal;
+    font-weight: 400;
+} 
