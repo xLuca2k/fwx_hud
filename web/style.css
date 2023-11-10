@@ -8,6 +8,11 @@
     src: url(Gilroy-Regular.ttf);
 }
  
+
+body {
+    background-color: rgb(110, 109, 109);
+}
+
 .logo-container {
     position: absolute;
     margin-left: 166vh;
@@ -49,6 +54,21 @@
     text-shadow: 0px 7.990000114440918px 14.600000381469727px rgba(16, 168, 250, 0.3);
 }
 
+.container .cash {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    font-family: Gilroy-Regular;
+    font-weight: 900;
+    margin-left: 51vw;
+    margin-top: .4vw;
+    font-size: 1.5rem;
+    line-height: normal;
+    color: rgba(240, 223, 223, 0.788);
+    text-transform: uppercase;
+    text-shadow: 0px 18.990000114440918px 14.600000381469727px rgba(16, 168, 250, 0.3);
+}
+
 .server-name {
     position: absolute;
     justify-content: center;
@@ -67,8 +87,8 @@
 }
 
 .container > .quest-wrapper {
-    margin-top: 2vw;
-    margin-left: 33vw;
+    margin-top: 3vw;
+    margin-left: 33.2vw;
     display: flex;
     align-items: center;
 }
@@ -113,8 +133,10 @@
 }
 
 .container > .quest-wrapper > .content > .title-wrapper > .label {
-    font-size: 13px;
+    font-size: 16px;
     font-weight: 400;
+    margin-top: 8px;
+    margin-right: -10px;
 }
 
 .container > .quest-wrapper > .content > .title-wrapper > .progress {

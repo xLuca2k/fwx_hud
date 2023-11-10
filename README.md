@@ -30,12 +30,7 @@
 # 9.11.2023 - Am facut index.html si umpic din style.css
 # 9.11.2023 - Am terminat index.html si style.css
 # 9.11.2023 - Am facut putin main.js
-
-# --------------
-
-# !! LUCRURI CARE TREBUIE SA FAC: !!
-
-# 1.Lua BackEnd!
+# 10.11.2023 - Am terminat partea de Web!
 
 # --------------
 
